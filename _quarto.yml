@@ -8,11 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
+        text: Dashboard2
+        href: dashboard2.qmd
       - about.qmd
+        href: https://github.com/baronialex/dashboard2.git
+        text: Github 
+
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
